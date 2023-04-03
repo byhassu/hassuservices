@@ -1,0 +1,158 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+<link rel="stylesheet" href="/static/css/index.css">
+
+{% block body %}
+<div class="container-fluid px-0">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+                <img class="img1" src="/static/img/mob2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+           <div class="mob"> <h1 style="color:rgb(78, 32, 112);">Mobile Repairing</h1>
+         
+            <p style="color: black;">We fix any type of mobile phones issues <b> at low cost </b> (tauch,glass,folder,jack etc)</p>
+        
+        </div>
+    </div>
+        </div>
+        <div class="carousel-item">
+              <img class="img2" src="/static/img/online.jpg" class="d-block w-100" alt="...">
+
+        <div class="carousel-caption d-none d-md-block">
+            <div class="mob">
+          <strong><h1 style="color: rgb(78, 32, 112);" >Online Works</h1></strong>
+          <p style="color: black;">We apply new and do correction <b>at low charge</b> (Voter id card,Pan Card,Passport,Aadhaar Card(Correction Only),Driving Licence and any others)</p>
+        </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img class="img3" src="/static/img/3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="mob">
+            <h1 style="color:rgb(78, 32, 112);">Money Transfer</h1>
+            <p style="color: black;">We transfer money <b> at 1% charge </b> and also do wallet to upi or cash</p>
+        </div>
+        </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+</div>
+
+
+<div class="container my-3">
+<h1 class="my-4 text-center">Our Services</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+        <img src="/static/img/pan card.jpg" class="d-block w-100" alt="...">
+            
+            <div class="card-body">
+              <p class="card-text">We apply new pan card and also do correction in pan card (<b>Rs 170 </b>)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/img/voter.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">We apply voter card and also do correction in voter id card (<b> Rs 50 </b>).</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="pass" src="/static/img/passport.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">We apply new passport and also do correction in passport (<b>Rs 1700 </b>).</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="pass" src="/static/img/aadhaar.jpg" class="d-block w-100" alt="...">
+              <div class="card-body">
+                
+                <p class="card-text">We do correction in aadhaar card (<b> Rs 100 </b>) <br><b style="color: red;">Note:-</b> Mobile number should be link to your aadhaar card
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="pass" src="/static/img/3.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">We transfer money and also do wallet to upi or cash ( <b>Charge 1%</b>  )</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+           <img class="mob2" src="/static/img/mob2.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">We fix mobile tauch,glass,scree, jack,speaker,mic,or mother board issues ( <b>at low cost</b>)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+{% endblock body %}
